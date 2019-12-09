@@ -26,8 +26,13 @@ public class RegisterUser extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
-		// フォワード先
+/*		↓↓自動生成されるが使わない（現状エラーの元になる）↓↓
+ * 		response.getWriter().append("Served at: ").append(request.getContextPath());
+		↑↑						↑↑
+
+
+
+*/		// フォワード先
 		String forwardPath = null;
 
 		// サーブレットクラスの動作を決定する[action]の値を
